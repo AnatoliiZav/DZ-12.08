@@ -12,7 +12,7 @@ if (N > 9999 && N <100000)
     int b1 = a % 10; 
     int b2 = b / 10; 
     int a2 = b % 10;
-    Console.WriteLine($"{a}, {b}, {a1}, {a2}, {b1}, {b2}");
+  
     if(a1 == a2 && b1 == b2)
     { 
         Console.Write($"Число {N} является палиндромом");
